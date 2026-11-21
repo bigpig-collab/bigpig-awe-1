@@ -2,12 +2,13 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const text = [
-  "You lie with your cheek on the dog's side.",
-  "It rises. It falls. It rises.",
-  "The house ticks itself to sleep around you.",
-  "His feet run a little, through a field that never ends.",
-  "The night is big, and the dog is warm,",
-  "and you are small between them.",
+  "You lie in the treehouse your father built.",
+  "The tree sways, slow, in the night wind.",
+  "Leaves talk above your head.",
+  "Below, the yard is asleep. Above, the stars",
+  "are caught in the branches, and do not fall.",
+  "The tree has stood a hundred years.",
+  "It is still growing, and it holds you.",
 ].join("\n");
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
